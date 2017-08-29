@@ -27,7 +27,11 @@
         <property name="configLocation" value="classpath:mybatis_cfg.xml"></property>
 
     </bean>
-
+    <!-- 配置Mapper扫描 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 设置Mapper扫描包 -->
+        <property name="basePackage" value="cn.yz.fresh.pojoMapper" />
+    </bean>
     <!--controller-->
     <mvc:default-servlet-handler/>
     <mvc:annotation-driven/>
