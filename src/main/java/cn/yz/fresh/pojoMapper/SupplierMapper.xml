@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.yz.fresh.mapper.SupplierMapper" >
+ <!--  <resultMap id="BaseResultMap" type="cn.yz.fresh.pojo.Supplier" >
+    <id column="supplierid" property="supplierid" jdbcType="INTEGER" />
+    <result column="companyname" property="companyname" jdbcType="VARCHAR" />
+    <result column="userid" property="userid" jdbcType="INTEGER" />
+    <result column="grade" property="grade" jdbcType="VARCHAR" />
+    <result column="major_business" property="majorBusiness" jdbcType="VARCHAR" />
+    <result column="resourceinfo" property="resourceinfo" jdbcType="VARCHAR" />
+    <result column="uptime" property="uptime" jdbcType="TIMESTAMP" />
+    <result column="download" property="download" jdbcType="INTEGER" />
+  </resultMap> -->
+ 
+</mapper>

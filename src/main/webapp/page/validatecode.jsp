@@ -29,11 +29,11 @@
 		g.drawOval(x, y, 0, 0);
 	}
 	// generate a random code
-	String capstr = hash1.substring(0, 4);
-	session.setAttribute("key", capstr);
+	String str = hash1.substring(0, 4);
+	session.setAttribute("key", str);
 	g.setColor(new Color(0, 100, 0));
 	g.setFont(new Font("Candara", Font.BOLD, 24));
-	g.drawString(capstr, 8, 24);
+	g.drawString(str, 8, 24);
 	g.dispose();
 	response.setContentType("image/jpeg");
 	out.clear();

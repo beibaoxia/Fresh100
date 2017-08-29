@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.yz.fresh.mapper.GoodsMapper" >
+ <!--  <resultMap id="BaseResultMap" type="cn.yz.fresh.pojo.Goods" >
+    <id column="goodid" property="goodid" jdbcType="INTEGER" />
+    <result column="goodname" property="goodname" jdbcType="VARCHAR" />
+    <result column="gradeid" property="gradeid" jdbcType="INTEGER" />
+    <result column="catrgoryid" property="catrgoryid" jdbcType="INTEGER" />
+    <result column="brand" property="brand" jdbcType="VARCHAR" />
+    <result column="standard" property="standard" jdbcType="VARCHAR" />
+    <result column="goodlevel" property="goodlevel" jdbcType="VARCHAR" />
+    <result column="repertory" property="repertory" jdbcType="INTEGER" />
+    <result column="price" property="price" jdbcType="DECIMAL" />
+    <result column="currency" property="currency" jdbcType="VARCHAR" />
+    <result column="fluctuates" property="fluctuates" jdbcType="VARCHAR" />
+    <result column="isspot" property="isspot" jdbcType="VARCHAR" />
+    <result column="supplierid" property="supplierid" jdbcType="INTEGER" />
+  </resultMap> -->
+  
+</mapper>

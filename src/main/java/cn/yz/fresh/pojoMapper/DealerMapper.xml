@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.yz.fresh.mapper.DealerMapper" >
+  <!-- <resultMap id="BaseResultMap" type="cn.yz.fresh.pojo.Dealer" >
+    <id column="dealerid" property="dealerid" jdbcType="INTEGER" />
+    <result column="dealername" property="dealername" jdbcType="VARCHAR" />
+    <result column="dealerphone" property="dealerphone" jdbcType="VARCHAR" />
+    <result column="dealerQQ" property="dealerqq" jdbcType="VARCHAR" />
+  </resultMap> -->
+  
+</mapper>

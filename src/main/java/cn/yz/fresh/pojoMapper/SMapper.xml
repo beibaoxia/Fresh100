@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.yz.fresh.mapper.SMapper" >
+  <!-- <resultMap id="BaseResultMap" type="cn.yz.fresh.pojo.S" >
+    <id column="goods_id" property="goodsId" jdbcType="INTEGER" />
+    <result column="category_id" property="categoryId" jdbcType="INTEGER" />
+    <result column="categoty_name" property="categotyName" jdbcType="VARCHAR" />
+    <result column="second_id" property="secondId" jdbcType="INTEGER" />
+    <result column="second_name" property="secondName" jdbcType="VARCHAR" />
+    <result column="three_id" property="threeId" jdbcType="INTEGER" />
+    <result column="three_name" property="threeName" jdbcType="VARCHAR" />
+    <result column="price" property="price" jdbcType="DECIMAL" />
+    <result column="inventory" property="inventory" jdbcType="INTEGER" />
+  </resultMap> -->
+</mapper>

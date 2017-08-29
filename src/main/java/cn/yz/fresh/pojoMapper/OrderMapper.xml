@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.yz.fresh.mapper.OrderMapper" >
+  <!-- <resultMap id="BaseResultMap" type="cn.yz.fresh.pojo.Order" >
+    <result column="order_id" property="orderId" jdbcType="VARCHAR" />
+    <result column="good_id" property="goodId" jdbcType="INTEGER" />
+    <result column="good_nums" property="goodNums" jdbcType="INTEGER" />
+    <result column="goods_price" property="goodsPrice" jdbcType="DECIMAL" />
+    <result column="purchase_id" property="purchaseId" jdbcType="INTEGER" />
+    <result column="supply_id" property="supplyId" jdbcType="INTEGER" />
+    <result column="purchase_order_status" property="purchaseOrderStatus" jdbcType="INTEGER" />
+    <result column="purchase_pay_date" property="purchasePayDate" jdbcType="TIMESTAMP" />
+    <result column="supply_order_status" property="supplyOrderStatus" jdbcType="INTEGER" />
+    <result column="supply_deliver_date" property="supplyDeliverDate" jdbcType="TIMESTAMP" />
+    <result column="purchase_evaluation" property="purchaseEvaluation" jdbcType="VARCHAR" />
+    <result column="supply_evaluation" property="supplyEvaluation" jdbcType="VARCHAR" />
+    <result column="dealer_id" property="dealerId" jdbcType="INTEGER" />
+    <result column="remarks" property="remarks" jdbcType="VARCHAR" />
+  </resultMap> -->
+  
+</mapper>

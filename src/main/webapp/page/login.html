@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css/font-awesome-ie7.css">
 
     <script src="../js/html5shiv.min.js"></script>
-    <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+
     <script type="text/javascript">
         $(function () {
            $("#yanzhengma_a").click(function () {
@@ -130,7 +130,7 @@
                 <div class="login-right">
 
 
-                    <form action="">
+                    <form action="/user_action/islogin">
                         <div class="controls">
                             <div class="login-controls">
                                 <p>用户名：</p>
@@ -147,18 +147,18 @@
                                     <a href="javascript:;">忘记密码</a>
                                 </div>
                             </div>
-                            <input type="password" name="user_pwd" class="input03 w400">
+                            <input type="password" name="userPwd" class="input03 w400">
                         </div>
                         <div class="controls">
                             <div class="login-controls">
                                 <p>验证码：</p>
                             </div>
-                            <input type="text" class="input03 w250">
+                            <input type="text" name="valcode" class="input03 w250">
                             <img src="validatecode.jsp" alt="" class="code-img" id="yanzhengma_img">
                             <a href="" id="yanzhengma_a">换一张</a>
                         </div>
                         <div class="controls">
-                            <input type="button" value="登录" class="btn07 w400">
+                            <input type="submit" value="登录" class="btn07 w400">
                         </div>
                     </form>
 
