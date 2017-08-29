@@ -32,6 +32,8 @@
     <mvc:default-servlet-handler/>
     <mvc:annotation-driven/>
 
+    <mvc:default-servlet-handler />
+
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="viewResolver">
         <property name="prefix" value="/"/>
         <property name="suffix" value=".jsp"/>
